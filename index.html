@@ -5,20 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJ Playlists</title>
     <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: #0a0a0a;
             color: #f0f0f0;
-            padding: 2rem 1rem;
+            min-height: 100vh;
+            padding: 1.5rem 1rem;
             max-width: 600px;
             margin: 0 auto;
         }
-        h1 { color: #00c2ff; margin-bottom: 1rem; }
-        p { color: #666; font-size: 0.9rem; }
+        h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #00c2ff;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        .playlist-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            background: #161616;
+            border: 1px solid #2a2a2a;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #f0f0f0;
+        }
+        .playlist-link:hover {
+            border-color: #00c2ff;
+        }
+        .playlist-name {
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        .arrow {
+            color: #444;
+            font-size: 1rem;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: #444;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <h1>DJ Playlists</h1>
-    <p>Shared playlists will appear here.</p>
+    <p class="subtitle">1 playlist</p>
+    
+        <a href="https://tenaciousdev.github.io/dj-playlists/maxwell-wedding-folk-festival.html" class="playlist-link">
+            <span class="playlist-name">Maxwell Wedding Folk Festival</span>
+            <span class="arrow">→</span>
+        </a>
+        
+    <div class="footer">Powered by DJ Playlist Builder</div>
 </body>
 </html>
