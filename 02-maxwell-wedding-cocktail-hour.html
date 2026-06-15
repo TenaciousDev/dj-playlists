@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 Maxwell Wedding: Cocktail Hour</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #f0f0f0;
+            min-height: 100vh;
+            padding: 1.5rem 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .header {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .header h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #00c2ff;
+            margin-bottom: 0.25rem;
+        }
+        .header .meta {
+            font-size: 0.85rem;
+            color: #666;
+        }
+        .track {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        .track-num {
+            font-size: 0.75rem;
+            color: #444;
+            width: 20px;
+            text-align: right;
+            flex-shrink: 0;
+        }
+        .cover {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+            border-radius: 4px;
+            overflow: hidden;
+            background: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .no-cover {
+            font-size: 1.2rem;
+            color: #444;
+        }
+        .track-info {
+            flex: 1;
+            min-width: 0;
+        }
+        .track-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .track-artist {
+            font-size: 0.78rem;
+            color: #888;
+            margin-top: 0.1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .track-album {
+            font-size: 0.72rem;
+            color: #555;
+            margin-top: 0.1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .track-duration {
+            font-size: 0.78rem;
+            color: #555;
+            flex-shrink: 0;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: #444;
+            text-align: center;
+        }
+        .back-btn {
+            display: inline-block;
+            color: #00c2ff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+        .back-btn:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <a href="https://tenaciousdev.github.io/dj-playlists" class="back-btn">← All Playlists</a>
+    <div class="header">
+        <h1>02 Maxwell Wedding: Cocktail Hour</h1>
+        <div class="meta">19 tracks &nbsp;·&nbsp; 60:32 total</div>
+    </div>
+    
+        <div class="track">
+            <div class="track-num">1</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/5aa369bd/6409/4f02/b584/f3f7977101a6/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Blueberry Hill</div>
+                <div class="track-artist">Fats Domino</div>
+                <div class="track-album">The Fats Domino Jukebox: 20 Greatest Hits The Way You Originally Heard Them</div>
+            </div>
+            <div class="track-duration">2:24</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">2</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/974d4893/30b5/4c6b/935d/132486a64317/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Walkin' To New Orleans</div>
+                <div class="track-artist">Buckwheat Zydeco</div>
+                <div class="track-album">Buckwheat's Zydeco Party (Deluxe Edition)</div>
+            </div>
+            <div class="track-duration">4:33</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">3</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/8ebd6ad2/9d38/4426/a324/a534eed89765/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Fly Me To The Moon (In Other Words)</div>
+                <div class="track-artist">Frank Sinatra</div>
+                <div class="track-album">It Might As Well Be Swing</div>
+            </div>
+            <div class="track-duration">2:30</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">4</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/4838e3f9/18f6/4586/af70/c0801f5a8dcf/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Love Is Here To Stay</div>
+                <div class="track-artist">Ella Fitzgerald</div>
+                <div class="track-album">Ella And Louis Again</div>
+            </div>
+            <div class="track-duration">4:01</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">5</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/565587df/6cf0/4896/9049/74da4e55742e/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Change Partners</div>
+                <div class="track-artist">Antonio Carlos Jobim</div>
+                <div class="track-album">Sinatra/Jobim: The Complete Reprise Recordings</div>
+            </div>
+            <div class="track-duration">2:43</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">6</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/9c107ee5/2ef6/47e9/ab01/73fdef74942a/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Stardust</div>
+                <div class="track-artist">Nat King Cole</div>
+                <div class="track-album">Love Is The Thing</div>
+            </div>
+            <div class="track-duration">3:15</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">7</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/6d604771/79ed/4c04/8aff/ea6b634b4218/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Jambalaya (On The Bayou)</div>
+                <div class="track-artist">Hank Williams</div>
+                <div class="track-album">Honky Tonkin (Expanded Undubbed Edition)</div>
+            </div>
+            <div class="track-duration">2:55</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">8</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/5b2b0bdc/7d82/4710/8e62/108cd01ee469/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Reincarnation of a Lovebird</div>
+                <div class="track-artist">Charles Mingus</div>
+                <div class="track-album">The Clown</div>
+            </div>
+            <div class="track-duration">8:32</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">9</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/54b49baf/65fb/4f3f/8efc/d396a2b5c89c/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Blue Suede Shoes</div>
+                <div class="track-artist">Elvis Presley</div>
+                <div class="track-album">Elvis Presley</div>
+            </div>
+            <div class="track-duration">2:02</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">10</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/62157e34/3af4/49c9/a20d/e41bc36fd974/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Get a Job</div>
+                <div class="track-artist">The Silhouettes</div>
+                <div class="track-album">Get a Job</div>
+            </div>
+            <div class="track-duration">2:48</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">11</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/3b101846/c238/471d/99a3/0daff60e3bf6/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Beyond the Sea</div>
+                <div class="track-artist">Bobby Darin</div>
+                <div class="track-album">That's All</div>
+            </div>
+            <div class="track-duration">2:52</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">12</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/3b465df3/e377/446e/8cc5/bebeff157018/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">That'll Be the Day</div>
+                <div class="track-artist">The Crickets</div>
+                <div class="track-album">The Best of 50´s</div>
+            </div>
+            <div class="track-duration">2:18</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">13</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/f9c11c74/1dea/4966/b0e6/f741977478cc/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Till There Was You</div>
+                <div class="track-artist">Peggy Lee</div>
+                <div class="track-album">The Marvelous Mrs. Maisel: Season 3 (Music From The Amazon Original Series)</div>
+            </div>
+            <div class="track-duration">2:32</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">14</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/d79ebc0f/47de/4a73/92fb/823852203b5e/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Boomerang</div>
+                <div class="track-artist">Lucy Schwartz</div>
+                <div class="track-album">Timekeeper</div>
+            </div>
+            <div class="track-duration">3:38</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">15</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/18a050a4/393f/46de/926f/fd133eaf8b63/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Stars Fell On Alabama</div>
+                <div class="track-artist">Ella Fitzgerald</div>
+                <div class="track-album">Ella And Louis</div>
+            </div>
+            <div class="track-duration">3:32</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">16</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/2b81427b/ecff/43aa/9347/e4d1195fc698/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Cheek To Cheek</div>
+                <div class="track-artist">Billie Holiday</div>
+                <div class="track-album">The 4400 (Original Series Soundtrack)</div>
+            </div>
+            <div class="track-duration">3:36</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">17</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/5ac44d55/73e6/4f2c/ac56/045fbf87c916/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Three Little Words</div>
+                <div class="track-artist">Nat King Cole</div>
+                <div class="track-album">L-O-V-E</div>
+            </div>
+            <div class="track-duration">2:16</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">18</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/0d1f806b/8a16/47bc/aaf9/43f58a58206b/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">There’s A Beast And We All Feed It</div>
+                <div class="track-artist">Jake Bugg</div>
+                <div class="track-album">Shangri La</div>
+            </div>
+            <div class="track-duration">1:43</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">19</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/8699f979/9108/4bb6/8466/efb2a43ec55f/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">When Lights Are Low</div>
+                <div class="track-artist">Vic Damone</div>
+                <div class="track-album">Linger Awhile with Vic Damone</div>
+            </div>
+            <div class="track-duration">2:22</div>
+        </div>
+        
+    <div class="footer">Shared via DJ Playlist Builder</div>
+</body>
+</html>
