@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 Maxwell Wedding: Folk Festival</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #f0f0f0;
+            min-height: 100vh;
+            padding: 1.5rem 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .header {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .header h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #00c2ff;
+            margin-bottom: 0.25rem;
+        }
+        .header .meta {
+            font-size: 0.85rem;
+            color: #666;
+        }
+        .track {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        .track-num {
+            font-size: 0.75rem;
+            color: #444;
+            width: 20px;
+            text-align: right;
+            flex-shrink: 0;
+        }
+        .cover {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+            border-radius: 4px;
+            overflow: hidden;
+            background: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .no-cover {
+            font-size: 1.2rem;
+            color: #444;
+        }
+        .track-info {
+            flex: 1;
+            min-width: 0;
+        }
+        .track-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .track-artist {
+            font-size: 0.78rem;
+            color: #888;
+            margin-top: 0.1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .track-album {
+            font-size: 0.72rem;
+            color: #555;
+            margin-top: 0.1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .track-duration {
+            font-size: 0.78rem;
+            color: #555;
+            flex-shrink: 0;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: #444;
+            text-align: center;
+        }
+        .back-btn {
+            display: inline-block;
+            color: #00c2ff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+        .back-btn:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <a href="https://tenaciousdev.github.io/dj-playlists" class="back-btn">← All Playlists</a>
+    <div class="header">
+        <h1>06 Maxwell Wedding: Folk Festival</h1>
+        <div class="meta">37 tracks &nbsp;·&nbsp; 122:34 total</div>
+    </div>
+    
+        <div class="track">
+            <div class="track-num">1</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/56956ff9/fab1/4d43/a745/a7f187a83bf2/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Rattlin Bog (Album Version)</div>
+                <div class="track-artist">The Irish Descendants</div>
+                <div class="track-album">So Far So Good. The Best of The Irish Descendants</div>
+            </div>
+            <div class="track-duration">3:52</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">2</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/f5e92902/3f8b/4291/b13e/769e865974e2/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Jolly Roving Tar</div>
+                <div class="track-artist">The Irish Rovers</div>
+                <div class="track-album">Another Round</div>
+            </div>
+            <div class="track-duration">2:28</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">3</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/88fd8611/cbbb/4725/ba91/ba493faabf78/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Wild Rover (Live)</div>
+                <div class="track-artist">The Dubliners</div>
+                <div class="track-album">Legendary Concert of the Dubliners 40 Years Reunion (Live)</div>
+            </div>
+            <div class="track-duration">4:09</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">4</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/e4704762/87e2/400f/ae8f/92fb5f2bbd80/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Irish Pub Song</div>
+                <div class="track-artist">The High Kings</div>
+                <div class="track-album">Irish Pub Song</div>
+            </div>
+            <div class="track-duration">3:00</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">5</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/56956ff9/fab1/4d43/a745/a7f187a83bf2/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Rocky Road To Dublin (Album Version)</div>
+                <div class="track-artist">The Irish Descendants</div>
+                <div class="track-album">So Far So Good. The Best of The Irish Descendants</div>
+            </div>
+            <div class="track-duration">5:29</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">6</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/c58a68db/8af4/4626/81d6/a57e57941cc3/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Drink The Night Away</div>
+                <div class="track-artist">Gaelic Storm</div>
+                <div class="track-album">Special Reserve</div>
+            </div>
+            <div class="track-duration">3:15</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">7</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/be947180/38d0/46fa/a21a/e253d07daf1d/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Night Pat Murphy Died</div>
+                <div class="track-artist">Great Big Sea</div>
+                <div class="track-album">Play</div>
+            </div>
+            <div class="track-duration">3:04</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">8</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/ba41a4e1/daae/4ed9/9a73/c0cdfc8cb795/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Whiskey in the Jar</div>
+                <div class="track-artist">The Irish Rovers</div>
+                <div class="track-album">The Irish Rovers 50 Years - Vol. 2</div>
+            </div>
+            <div class="track-duration">3:03</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">9</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/78a217f2/579a/4086/9197/b15c50bac09a/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Whiskey in the Jar</div>
+                <div class="track-artist">The Dubliners</div>
+                <div class="track-album">The Best Of The Dubliners</div>
+            </div>
+            <div class="track-duration">2:59</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">10</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/7715db59/0686/4df9/9345/d04b057ab4aa/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Whiskey, You're the Devil</div>
+                <div class="track-artist">The Clancy Brothers</div>
+                <div class="track-album">Irish Drinking Songs</div>
+            </div>
+            <div class="track-duration">2:12</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">11</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/f275304e/4367/48ea/a280/c3ba60eb6f47/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Galway Girl</div>
+                <div class="track-artist">The High Kings</div>
+                <div class="track-album">Friends for Life</div>
+            </div>
+            <div class="track-duration">2:55</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">12</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/96a2059c/b7df/43d0/bd97/278cae13c066/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Farewell to Nova Scotia</div>
+                <div class="track-artist">Paddy Reilly</div>
+                <div class="track-album">The Fields of Athenry</div>
+            </div>
+            <div class="track-duration">3:52</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">13</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/463a0dfe/777f/4ddb/a844/9dbe4123fba5/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Downtown Girl</div>
+                <div class="track-artist">The Irish Descendants</div>
+                <div class="track-album">Homebrew 9</div>
+            </div>
+            <div class="track-duration">2:03</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">14</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/6d8d3a0f/e251/481d/9b5b/d2063a8aed00/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Barrett's Privateers</div>
+                <div class="track-artist">The Real McKenzies</div>
+                <div class="track-album">Westwinds</div>
+            </div>
+            <div class="track-duration">4:30</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">15</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/c58a68db/8af4/4626/81d6/a57e57941cc3/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Johnny Jump Up/Morrison's Jig</div>
+                <div class="track-artist">Gaelic Storm</div>
+                <div class="track-album">Special Reserve</div>
+            </div>
+            <div class="track-duration">5:00</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">16</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/77c8f1e1/2c32/4187/877d/3fcdb940afc1/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Chemical Worker's Song (Process Man)</div>
+                <div class="track-artist">Great Big Sea</div>
+                <div class="track-album">Up</div>
+            </div>
+            <div class="track-duration">2:36</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">17</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/f771a1e8/839e/44d9/a2d7/e647d8d47b66/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Last Saskatchewan Pirate</div>
+                <div class="track-artist">Derina Harvey Band</div>
+                <div class="track-album">Rove and Go</div>
+            </div>
+            <div class="track-duration">4:47</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">18</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/b04c99e7/5810/4024/8a21/e051b6711b99/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Star of the County Down</div>
+                <div class="track-artist">The Irish Rovers</div>
+                <div class="track-album">The Irish Rovers' gems</div>
+            </div>
+            <div class="track-duration">2:45</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">19</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/7715db59/0686/4df9/9345/d04b057ab4aa/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Water Is Alright In Tay</div>
+                <div class="track-artist">The Clancy Brothers</div>
+                <div class="track-album">Irish Drinking Songs</div>
+            </div>
+            <div class="track-duration">1:52</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">20</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/320662aa/656a/4aac/bf92/d1682a30d1ee/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Seven Drunken Nights</div>
+                <div class="track-artist">The Dubliners</div>
+                <div class="track-album">Dublin</div>
+            </div>
+            <div class="track-duration">3:16</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">21</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/7cfb125d/717a/4180/98ca/0e2d4f5d0285/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Rye Whiskey</div>
+                <div class="track-artist">The Pirates Charles</div>
+                <div class="track-album">Rise</div>
+            </div>
+            <div class="track-duration">4:06</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">22</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/83e26815/4b97/47db/a265/1301ffcdea25/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Botany Bay</div>
+                <div class="track-artist">Blaggards</div>
+                <div class="track-album">Live in Texas</div>
+            </div>
+            <div class="track-duration">3:44</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">23</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/621d00d2/5b53/4fd6/8b2e/26ca4a6b5cbe/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Rising Of The Moon</div>
+                <div class="track-artist">The High Kings</div>
+                <div class="track-album">Memory Lane</div>
+            </div>
+            <div class="track-duration">4:30</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">24</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/6d3b2ec4/1bc2/4097/a8cd/29d73b80a53b/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Heave Away</div>
+                <div class="track-artist">The Fables</div>
+                <div class="track-album">Tear the House Down</div>
+            </div>
+            <div class="track-duration">2:46</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">25</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/5f2f9a9a/8b7d/40ae/94b5/6fc0dea69e97/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Johnny Tarr</div>
+                <div class="track-artist">Gaelic Storm</div>
+                <div class="track-album">Tree</div>
+            </div>
+            <div class="track-duration">3:31</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">26</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/c79a602a/1db4/4eae/a3ec/381fdf45c71f/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Excursion Around The Bay</div>
+                <div class="track-artist">Great Big Sea</div>
+                <div class="track-album">Great Big Sea</div>
+            </div>
+            <div class="track-duration">2:29</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">27</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/084f13ef/a5ea/4fd8/9376/14c8ce9c6c4a/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Byker Hill</div>
+                <div class="track-artist">The Cottars</div>
+                <div class="track-album">Forerunner</div>
+            </div>
+            <div class="track-duration">2:47</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">28</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/2462c292/a257/422c/9611/a673a54e74bb/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Excursion Around the Bay</div>
+                <div class="track-artist">Derina Harvey Band</div>
+                <div class="track-album">Derina Harvey Band</div>
+            </div>
+            <div class="track-duration">4:04</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">29</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/839e6eec/fef6/4646/be6e/d83e8ef5708e/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Finnegan's Wake</div>
+                <div class="track-artist">The Irish Rovers</div>
+                <div class="track-album">Hardstuff</div>
+            </div>
+            <div class="track-duration">3:33</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">30</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/2a966cbe/7470/4fed/97e3/bb61abe24d9a/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Irish Rover</div>
+                <div class="track-artist">The Dubliners</div>
+                <div class="track-album">The Best That Is Irish</div>
+            </div>
+            <div class="track-duration">4:06</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">31</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/7715db59/0686/4df9/9345/d04b057ab4aa/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Mountain Dew (with Tommy Makem)</div>
+                <div class="track-artist">The Clancy Brothers</div>
+                <div class="track-album">Irish Drinking Songs</div>
+            </div>
+            <div class="track-duration">2:12</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">32</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/8e402a71/c684/41d5/9ecb/3f736250810f/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">1,2,3,4</div>
+                <div class="track-artist">Alan Doyle</div>
+                <div class="track-album">So Let's Go</div>
+            </div>
+            <div class="track-duration">3:03</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">33</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/83e26815/4b97/47db/a265/1301ffcdea25/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Drunken Sailor</div>
+                <div class="track-artist">Blaggards</div>
+                <div class="track-album">Live in Texas</div>
+            </div>
+            <div class="track-duration">2:41</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">34</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/e0dc72ed/4636/4c0c/87cf/f652b3c49682/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Got No Beard</div>
+                <div class="track-artist">The Longest Johns</div>
+                <div class="track-album">Cures What Ails Ya</div>
+            </div>
+            <div class="track-duration">2:52</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">35</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/66daf98e/cefa/428f/98cd/0d8000f1274a/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">The Rocky Road To Dublin</div>
+                <div class="track-artist">The High Kings</div>
+                <div class="track-album">The High Kings</div>
+            </div>
+            <div class="track-duration">3:16</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">36</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/12e47d95/c5c0/47f2/b420/23a8cb44af25/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Galway Girl</div>
+                <div class="track-artist">The Kilkennys</div>
+                <div class="track-album">Galway Girl (Irish Pub Session)</div>
+            </div>
+            <div class="track-duration">3:05</div>
+        </div>
+        
+        <div class="track">
+            <div class="track-num">37</div>
+            <div class="cover"><img src="https://resources.tidal.com/images/c58a68db/8af4/4626/81d6/a57e57941cc3/320x320.jpg" alt="cover"></div>
+            <div class="track-info">
+                <div class="track-name">Tell Me Ma</div>
+                <div class="track-artist">Gaelic Storm</div>
+                <div class="track-album">Special Reserve</div>
+            </div>
+            <div class="track-duration">2:42</div>
+        </div>
+        
+    <div class="footer">Shared via DJ Playlist Builder</div>
+</body>
+</html>
